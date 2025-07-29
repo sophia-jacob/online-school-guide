@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome, Online Educators!</title>
+    <link rel="icon" href="https://specials-images.forbesimg.com/imageserve/1130289814/960x0.jpg?fit=scale"/>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caladea&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <section class="nav-bar">
+      <nav>
+        <a class="links" href="index.html">HOME PAGE</a>
+        <a class="links" href="recording.html">SCREEN RECORDING TUTORIAL</a>
+        <a class="links" href="meeting.html">ZOOM MEETING TUTORIAL</a>
+        <a class="links" href="lessonplan.html">GOOGLE SLIDES THEME TUTORIAL</a>
+      </nav>
+    </section>
+    <br />
+    <br />
+    <section class="intro">
+      <div class="title">
+        <h1>Online School Guide</h1>
+      </div>
+      <container class="intro-image">
+        <img
+          src="https://cdn.lifehack.org/wp-content/uploads/2016/11/14130851/e-learning-trend1.jpg"
+        />
+      </container>
+      <h3 class="tag">
+        Preparing teachers to <i>virtually</i> educate students. And <i>virtually</i> prepare the students!
+      </h3>
+      <a class="join-us-btn" href="info.html"
+        ><input type="button" value="BACKGROUND INFO"
+      /></a>
+    </section>
+    <br/>
+    <br/>
+    <section class="form">
+      <div>
+        <h3 class="tag">
+          Lesson Recommendation
+        </h3>
+        <p class="form-instructions">
+          Complete the form below to be directed to a lesson recommended for you!
+        </p>
+      </div>
+
+      <div class="user-input">
+        <div class="name-form">
+          <p class="name">Name:</p>
+          <input class="name-input" type="text" placeholder="Your Name" />
+        </div>
+        
+        <section class="drop-down-lesson">
+          <label for="lesson-style"
+            >Select the type of learning you are facilitating:
+          </label>
+          <select id="lesson-style">
+            <option value="asynchronous">Asynchronous Learning</option>
+            <option value="synchronous">Synchronous Learning</option>
+          </select>
+        </section>
+        <br />
+
+        <section class="drop-down-tech">
+          <label for="tech-skill"
+            >Rate your current skill level with technology:
+          </label>
+          <select id="tech-skill">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </section>
+
+        <div class="recommendation-button">
+          <input class="submit-btn" type="submit" value="See My Recommendation" />
+        </div>
+      </div>
+        <section class="display-message"></section>
+     </section>
+    
+    <br />
+    <br />
+    <section class="resources">
+      <div>
+        <h3 class="tag">
+          Tutorials
+        </h3>
+      </div>
+      <container class="resource-links">
+        <div class="resource-one">
+          <img
+            class="tutorial-image"
+            src="https://cdn.glitch.com/b784844e-c7cf-487c-a5e2-fce2dbe1a04a%2Fvideo-record.png?v=1590109574990"
+          />
+          <!--           <br /> -->
+          <a class="btn" href="recording.html"
+            ><input type="button" value="SCREEN RECORDING"
+          /></a>
+        </div>
+        <div class="resource-two">
+          <img
+            class="tutorial-image"
+            src="https://cdn.glitch.com/b784844e-c7cf-487c-a5e2-fce2dbe1a04a%2Fvirtual.png?v=1590109690474"
+          />
+          <!--           <br /> -->
+          <a class="btn" href="meeting.html"
+            ><input type="button" value="ZOOM MEETING"
+          /></a>
+        </div>
+        <div class="resource-three">
+          <img
+            class="tutorial-image"
+            src="https://cdn.glitch.com/b784844e-c7cf-487c-a5e2-fce2dbe1a04a%2Flesson.png?v=1590111110811"
+          />
+          <!--           <br /> -->
+          <a class="btn" href="lessonplan.html"
+            ><input type="button" value="GOOGLE SLIDES THEME"
+          /></a>
+        </div>
+      </container>
+    </section>
+    <section class="about-us">
+      <h3 class="tag">About the Online School Guide</h3>
+      <br />
+      <div class="bio">
+        <p>
+Hi there! I am Sophia, a middle schooler that is very passionate about coding! I made this website for teachers AND students to make their lives much more easier!
+          This could help because, as we transition into online learning, teachers are also transitioning into online teaching. So there are a lot more concepts they need to know!
+          So that's why I made this website, to help the teachers while they do online teaching!
+        </p>
+      </div>
+      <br />
+      <br />
+    </section>
+    <footer>
+      <h3 class="footer-title">
+        Online School Guide
+      </h3>
+      <p class="footer-slogan">
+       A website that is designed to help teachers and students tranisition to
+        virtual educating!
+      </p>
+      <container class="social">
+        <a class="social" href="contact.html">CONTACT US</a>
+        <a class="social" href="classroom.html">GOOGLE CLASSROOM</a>
+      </container>
+    </footer>
+    <!-- 
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script> -->
+  </body>
+</html>
